@@ -7,6 +7,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
     <style type="text/css">
+        body {
+            padding:0px;
+            margin:0px;
+        }
         .karkas {
             margin: 0 auto;
             max-width: 1400px;

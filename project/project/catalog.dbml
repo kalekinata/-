@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="glass_factory" Class="catalogDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-EVNA75P\SQLEXPRESS;Initial Catalog=glass_factory;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="glass_factoryConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.catalog" Member="catalog">
+    <Type Name="catalog">
+      <Column Name="id" AutoSync="Never" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="dadd" AutoSync="Never" Type="System.DateTime" DbType="DateTime2 NOT NULL" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="image" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="format_image" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="scheme" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="format_scheme" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="price_one" Type="System.Decimal" DbType="Decimal(18,3)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
